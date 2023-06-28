@@ -1,0 +1,50 @@
+-- Consulta basicas where
+
+select * from usuario where documento=793756945;
+
+select * from usuario where primer_nombre like '%L%';
+
+select * from producto where precio>=150000;
+
+-- Consulta basicas count
+
+select count(*) nombre_producto from producto;
+
+select count(*) stock from producto where stock >100;
+
+select count(*) segundo_apellido from usuario where segundo_apellido like '%a%';
+
+-- Consultas con sum
+
+select sum(precio) from producto;
+
+select sum(stock) from producto where stock >= 70;
+
+select sum(total) from factura where cantidad >=3;
+
+-- Consultas con having
+
+select stock,nombre_producto from producto group by stock having stock >= 80 ;
+
+select id_factura,cantidad,fecha from factura group by cantidad having min(cantidad)>2;
+
+select tipo_documento,documento,primer_nombre from usuario group by documento having primer_nombre like 'm%';
+
+-- Consultas con joins
+
+select primer_nombre,id_producto_f,cantidad,total from usuario inner join factura on factura.id_factura = usuario.id_factura_f where cantidad = 2;
+
+select primer_nombre,rol from usuario inner join rol on rol.id_rol = usuario.id_rol_f;
+
+select id_factura,id_producto,nombre_producto,precio,cantidad,iva,total from factura inner join producto on producto.id_producto = factura.id_producto_f where cantidad >=2;
+
+-- Consultas anidadas
+
+
+
+
+
+
+
+
+

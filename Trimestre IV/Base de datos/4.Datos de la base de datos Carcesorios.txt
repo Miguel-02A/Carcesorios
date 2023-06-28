@@ -1,0 +1,41 @@
+use carcesorios;
+
+-- productos
+
+insert into producto (nombre_producto,precio,stock) values ('Carter','450000','200');
+insert into producto (nombre_producto,precio,stock) values ('Cruceta','28000','5');
+insert into producto (nombre_producto,precio,stock) values ('Bujias','160000','70');
+insert into producto (nombre_producto,precio,stock) values ('Rines','520000','65');
+insert into producto (nombre_producto,precio,stock) values ('Volante ','60000','120');
+
+select * From producto;
+
+-- facturas
+
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('1','2','2023-01-18','19','900000');
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('2','4','2023-03-22','19','112000');
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('3','3','2023-03-06','19','480000');
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('4','1','2023-04-24','19','520000');
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('5','2','2023-05-10','19','120000');
+insert into factura (id_producto_f,cantidad,fecha,iva,total) values ('2','1','2023-05-10','19','28000');
+
+select * From factura;
+
+-- rol
+
+insert into rol (rol) values ('Cliente');
+insert into rol (rol) values ('Administrador');
+
+select * From rol;
+
+
+-- usuario
+
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('10074749','1','1','C.C','Adriana','Karen','Garcia','Gomez','Adriana27@outlook.com','3105835903','Calle 63');
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('12072349','2','1','C.C','Manuel','Fabian','Lopez','Sanchez','Manuel83@hotmail.com','3507945064','Calle 80');
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('793756945','3','1','C.E','Andres','Felipe','Hernandez','Gonzalez','Andres83@hotmail.com','3024964806','Calle 26');
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('1000245745','4','1','C.C','Carlos','Alberto','Torres','Gonzalez','carlos@gmail.com','3274857372','Calle 80');
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('1002346745','5','1','C.E','Mariana','Sofia','Huertas','Sanchez','mariana12@gmail.com','3246957372','Calle 63');
+insert into usuario (documento,id_factura_f,id_rol_f,tipo_documento,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion) values ('235840345','6','1','C.C','Leidy','Tatiana','Correa','Lopez','leidyta24@hotmail.com','3023594523','Calle 63');
+
+select * From usuario;
