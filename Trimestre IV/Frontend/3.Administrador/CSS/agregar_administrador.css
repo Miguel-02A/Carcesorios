@@ -1,0 +1,67 @@
+
+#dropzone{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 300px;
+      height: 300px;
+      border: 2px dashed #ccc;
+      text-align: center;
+      padding: 50px;
+      font-size: 18px;
+      color: orange;
+      justify-content: center;
+}
+.formu{
+   
+    text-align: center;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#imagen{
+    justify-content: center;
+}
+.nombre{
+    font-size: larger;
+    color: black;
+}
+.nombre:hover{
+    background: orange;
+}
+.descripcion{
+    font-size: larger;
+}
+.descripcion:hover{
+    background: orange;
+}
+
+.precio{
+    font-size: larger;
+}
+.precio:hover{
+    background: orange;
+}
+
+.caracteristicas{
+    font-size: larger;
+}
+.caracteristicas:hover{
+    background: orange;
+}
+#bto{
+    text-align: center;
+   
+    border-color: rgb(255, 255, 255);
+}
+#bto ul a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
+    text-decoration: none;
+}
+.titu{
+    text-align: center;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
