@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Contenedor_principal{
+    background: #161719;
+}
+
+#Cabecera{
+    background: #222427;
+    padding: 1%;
+
+}
+.Menu_cabecera{
+    width: center;
+}
+.Inicio_registro ul{
+    margin-left: 5%;
+    list-style: none;
+}
+.Inicio_registro ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+.minimenu{
+    text-align: left;
+    background: black;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5%;
+    width: 2%;
+}
+.minimenu li{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5%;
+}
+.nav li ul{
+    display: none;
+    min-width: 10%;
+}
+.nav li:hover > ul{
+    display: block;
+}
+
+
+
+
+#Informacion{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 70% 25% 5%;
+    border-bottom: 2px solid #222427;
+    ;
+}
+.Imglogo{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+.Imglogo ul{
+    list-style: none;
+}
+.Imglogo ul a{
+    text-decoration: none;
+}
+.Logo{
+    width: 20%;
+}
+.Tel{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 30%;
+}
+.Imgcarrito{
+    margin-top: 150%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+}
+.Imgcarrito ul{
+    list-style: none;
+}
+.Imgcarrito ul a{
+    text-decoration: none;
+}
+.Conte_carrito2{
+    background: rgb(220, 143, 0);
+    border-radius: 2px;
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+}
+.Carrito{
+    width: 50%;
+}
+
+
+#Cabecera2{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 50% 50%;
+}
+.Menu2 ul{
+    list-style: none;
+    display: grid;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 15% 22% 20% auto;
+    padding: 2%;
+}
+.Menu2 ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.m1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    border-right: 2px solid #222427;
+    margin-top: 22%;
+    text-align: center;
+}
+.C1{
+    color: rgb(220, 143, 0);
+}
+.m2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    
+    border-right: 2px solid #222427;
+    margin-top: 15%;
+    text-align: center;
+}
+.C2{
+    color: white;
+}
+.m3{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 10%;
+    margin-top: 16%;
+    text-align: center;
+}
+
+
+
+
+#Titulo_categoria{
+    background: #222427;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: 60px;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(1fr,1fr);
+}
+.Contenido_Titulo{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+
+#Producto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(2fr, 1fr);
+    grid-template-columns: 60% 40%;
+}
+.im1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    height: 120%;
+    width: 50%;
+    background: #2e3135;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.Im_principal{
+    margin-top: 25%;
+}
+.im2{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 18.15% 18.15% 18.15% auto;
+    margin-top: 13%;
+}
+.Im_secundario_1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Im_secundario_2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Im_secundario_3{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Titulo_Producto{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.Descripcion_Producto{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-template-rows: repeat(2fr, 1fr);
+    grid-template-columns: repeat(1fr, 1fr);
+}
+.Descripcion_Producto h4{
+    color: white;
+}
+.Botones{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(2fr, 1fr);
+}
+.Comprar{
+    margin-bottom: 20%;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+.Comprar ul{
+    list-style: none;
+}
+.Comprar ul a{
+    text-decoration: none;
+}
+.Imgcarrito2{
+    margin-left: 20%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.Imgcarrito2 ul{
+    list-style: none;
+}
+.Imgcarrito2 ul a{
+    text-decoration: none;
+}
+.Com_letra{
+    color: #2e3135;
+    background: orange;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.Conte_carrito2{
+    background: rgb(220, 143, 0);
+    border-radius: 2px;
+    text-align: center;
+    width: 20%;
+}
+.Carrito2{
+    width: 25%;
+}
+
+.titulop{
+    font-size: 30px;
+    color: rgb(220, 143, 0);
+}
+.descp{
+    font-size: 20px;
+    color: white;
+}
+.preciop{
+    font-size: 20px;
+    color: rgb(220, 143, 0);
+}
+
+
+
+#Pie_1{
+    margin-top: 2%;
+    background-color: #222427;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(2fr, 1fr);
+    padding: 2%;
+}
+#Pie_1 ul{
+    list-style: none;
+}
+#Pie_1 ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    text-align: left;
+}
+.menupie{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(3fr, 1fr);
+}
+.menupie h2{
+    color: rgb(220, 143, 0);
+}
+.menupie h4{
+    color: white;
+}
+.menupie p{
+    color: white;
+}
+.contactenos{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 8%;
+}
+.redes{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 40%;
+}
+.reportar{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 46%;
+}
+.Twitter{
+    color: white;
+}
+
+#Pie_2{
+    background: #2e3135;
+    padding: 2%;
+}
+.copi{
+    color: white;
+    margin-left: 3%;
+}

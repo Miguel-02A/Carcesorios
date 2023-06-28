@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Contenedor_principal{
+    background: #161719;
+}
+
+#Cabecera{
+    background: #222427;
+    padding: 1%;
+
+}
+.Menu_cabecera{
+    width: center;
+}
+.Menu1{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Menu1 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 10% 10% auto;
+}
+.Menu1 ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.M1{
+    display: grid;
+    grid-column: 1;
+    border-right: 2px solid white;
+}
+.M2{
+    display: grid;
+    grid-column: 2;
+    margin-left: 6%;
+}
+
+
+#Informacion{
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 60% 35% 8%;
+    border-bottom: 2px solid #222427;
+    ;
+}
+.Imglogo{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+.Imglogo ul{
+    list-style: none;
+}
+.Imglogo ul a{
+    text-decoration: none;
+}
+.Logo{
+    width: 20%;
+}
+.Tel{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 25px;
+}
+.Imgcarrito{
+    margin: 10%;
+    margin-top: 40px;
+}
+.Imgcarrito .carritox{
+    border: 1px solid rgb(117, 76, 0);
+    background-color: rgb(220, 143, 0);
+}
+.Imgcarrito .carritox:hover{
+    border: 1px solid rgb(117, 76, 0);
+    background-color: rgb(151, 104, 18);
+}
+.Imgcarrito ul{
+    list-style: none;
+}
+.Imgcarrito ul a{
+    text-decoration: none;
+}
+.Conte_carrito{
+    background: rgb(220, 143, 0);
+    border-radius: 2px;
+    text-align: center;
+}
+.Carrito{
+    width: 50%;
+}
+/*Modificar el titulo del contenedor principal*/
+#Titulo_categoria{
+    background: #222427;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    height: 60px;
+    display: grid;
+}
+/*Modificacion de las tarjetas*/
+.card{
+    margin: 20px;
+    padding: 10px;
+}
+/*Cambiar color de entregado o cancelado*/
+.card .bien{
+    color: green
+}
+.card .mal{
+    color: red;
+}
+#Cabecera2{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 50% 50%;
+}
+.Menu2 ul{
+    list-style: none;
+    display: grid;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 15% 22% 20% auto;
+    padding: 2%;
+}
+.Menu2 ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.m1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    border-right: 2px solid #222427;
+    margin-top: 22%;
+    text-align: center;
+}
+.C1{
+    color: rgb(220, 143, 0);
+}
+.m2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    border-right: 2px solid #222427;
+    margin-top: 15%;
+    text-align: center;
+}
+.C2{
+    color: white;
+}
+.m3{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 10%;
+    margin-top: 16%;
+    text-align: center;
+}
+.Barra_navegacion{
+    padding: 5%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 85% 15%;
+}
+.Barra_n{
+    height: 90%;
+    width: 60%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+.Boton_b{
+    height: 90%;
+    width: 80%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 5px;
+}
+
+.Contenido_Titulo{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+#Pie_1{
+    background-color: #222427;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(2fr, 1fr);
+    padding: 2%;
+}
+#Pie_1 ul{
+    list-style: none;
+}
+#Pie_1 ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    text-align: left;
+}
+.menupie{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(3fr, 1fr);
+}
+.menupie h2{
+    color: rgb(220, 143, 0);
+}
+.menupie h4{
+    color: white;
+}
+.menupie p{
+    color: white;
+}
+.contactenos{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 8%;
+}
+.redes{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 40%;
+}
+.reportar{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 46%;
+}
+.Twitter{
+    color: white;
+}
+
+#Pie_2{
+    background: #2e3135;
+    padding: 2%;
+}
+.copi{
+    color: white;
+    margin-left: 3%;
+}
