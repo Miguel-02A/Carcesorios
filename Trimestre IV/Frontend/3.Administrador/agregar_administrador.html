@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/1.Inicio_administrador.css">
+    <link rel="stylesheet" href="../Styles/agregar_administrador.css">
+    <title>Carcesorios</title>
+</head>
+<body>
+    <div id="Contenedor_principal">
+
+        <header id="Cabecera">
+
+            <div class="Menu_cabecera">
+                <nav class="Inicio_registro">
+                    <ul class="nav">
+                        <li><a href="#"><h4>Baltasar Pérez - Administrador</h4></a>
+                            <ul class="minimenu">
+                                <li><a href="#"><p>Perfil</p></a></li>
+                                <li><a href="../../1.Usuario/Index/1.Inicio.html"><p>Cerrar sesión</p></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <article id="Informacion">
+
+            <nav class="Imglogo">
+                <ul>
+                    <li><a href="#"><img src="../../IMG/1.Logo/Logo.png" alt="Logo" class="Logo"></a></li>
+                </ul>
+            </nav>
+
+            <h1 class="Tel">Tel: +57-321-123-3212</h1>
+
+            <nav class="Imgcarrito">
+                <ul>
+                    <li><a href="#"><div class="Conte_carrito"><img src="../../IMG/2.Iconos/1.Carrito.png" alt="Logo" class="Carrito"></div></a></li>
+                </ul>
+            </nav>
+
+        </article>
+
+        <header id="Cabecera2">
+
+            <div class="Menu_cabecera2">
+                <nav class="Menu2">
+                    <ul>
+                        <li class="m1"><a href="#"><h4 class="C1">Inicio</h4></a></li>
+                        <li class="m2"><a href="3.Ofertas_administrador.html"><h4 class="C2">%Ofertas</h4></a></li>
+                        <li class="m3"><a href="#"><h4 class="C2">Ayuda/PQR</h4></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <form class="Barra_navegacion">
+                <input class="Barra_n" type="search" placeholder="Busca lo que necesites aquí" >
+                <button class="Boton_b" type="submit">Buscar</button>
+            </form>
+            <br><br>
+
+        </header>
+        <h1 class="titu">Agregar volante</h1>
+        <br>
+        <div class="formu">
+            <form>
+                <div>
+                    <label>Nombre</label>
+                    <br>
+                    <input class="nombre" type="text">
+                </div>
+                <br>
+                <div>
+                    <label>Descripción</label>
+                    <br>
+                    <input class="descripcion" type="text">
+                </div>
+                <br>
+                <div>
+                    <label>Precio</label>
+                    <br>
+                    <input class="precio" type="text">
+                </div>
+                <br>
+                <div>
+                    <label>Caracteristicas</label>
+                    <br>
+                    <input class="caracteristicas" type="text">
+                </div>
+                <br>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div id="imagen">
+          <script>
+            function handleDrop(event) {
+              event.preventDefault();
+              var files = event.dataTransfer.files;
+              var image = document.createElement('img');
+              image.src = URL.createObjectURL(files[0]);
+              document.getElementById('dropzone').appendChild(image);
+            }
+            
+            function handleDragOver(event) {
+              event.preventDefault();
+            }
+          </script>
+          <div id="dropzone" ondrop="handleDrop(event)" ondragover="handleDragOver(event)">
+            Arrastra y suelta una imagen aquí
+          </div>
+        </div>
+        <br>
+        <div id="bto">
+            <ul><a href="2.Volante_administrador.html"><h2>Subir</h2></a></ul>
+        </div>
+        <br><br>
+
+        <footer id="Pie_1">
+
+            <ul class="menupie">
+                <li class="contactenos"><h2>Contáctenos</h2><h4>+57-321-123-3212 <br> Carcesorios@hotmail.com</h4></li>
+                <li class="reportar"><a href="#"><h2>Reportar un problema</h2></a></li>
+                <li class="redes"><h2>Redes</h2><a href="https://twitter.com/?lang=es"><p>Twitter</p></a><a href="https://www.youtube.com/?hl=es"><p>Youtube</p></a><a href="https://es-la.facebook.com/"><p>Facebook</p></a><a href="https://www.instagram.com/"><p>Instagram</p></a></li>
+            </ul>
+
+        </footer>
+
+        <footer id="Pie_2">
+            <div class="copi">&copy; 2023 Carcesorios-Escuadrón Velocista</div>
+        </footer>
+
+
+    </div>
+</body>
+</html>
