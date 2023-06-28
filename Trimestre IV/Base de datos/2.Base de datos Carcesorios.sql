@@ -1,0 +1,43 @@
+drop database if exists carcesorios;
+
+create database carcesorios character set utf8mb4 collate utf8mb4_unicode_ci;
+
+use carcesorios;
+
+create table producto(
+id_producto int primary key auto_increment,
+nombre_producto varchar(50) collate utf8mb4_unicode_ci not null,
+precio int(45) not null,
+stock int(20) not null
+)character set utf8mb4 collate utf8mb4_unicode_ci;
+
+create table factura(
+id_factura int primary key auto_increment,
+id_producto_f int not null,
+cantidad int(25) not null,
+fecha date not null,
+iva int(5) not null,
+total int(45) not null,
+FOREIGN KEY (id_producto_f) REFERENCES producto (id_producto)
+)character set utf8mb4 collate utf8mb4_unicode_ci;
+
+create table rol(
+id_rol int primary key auto_increment,
+rol varchar(40) collate utf8mb4_unicode_ci 
+)character set utf8mb4 collate utf8mb4_unicode_ci;
+
+create table usuario(
+documento int primary key,
+id_factura_f int not null,
+id_rol_f int not null,
+tipo_documento varchar(10) collate utf8mb4_unicode_ci not null,
+primer_nombre varchar(40) collate utf8mb4_unicode_ci not null,
+segundo_nombre varchar(40) collate utf8mb4_unicode_ci not null,
+primer_apellido varchar(40) collate utf8mb4_unicode_ci not null,
+segundo_apellido varchar(40) collate utf8mb4_unicode_ci not null,
+correo varchar(80) collate utf8mb4_unicode_ci not null,
+telefono int(20) not null,
+direccion varchar(80) collate utf8mb4_unicode_ci not null,
+FOREIGN KEY (id_factura_f) REFERENCES factura (id_factura),
+FOREIGN KEY (id_rol_f) REFERENCES rol (id_rol)
+)character set utf8mb4 collate utf8mb4_unicode_ci;
