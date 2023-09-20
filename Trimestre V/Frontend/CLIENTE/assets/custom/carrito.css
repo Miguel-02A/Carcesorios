@@ -1,0 +1,92 @@
+#Fotos_productos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr repeat(1, 30px);
+    margin-left: 3%;
+    margin-right: 5%;
+}
+#Fotos_productos ul{
+    margin: 20px;
+    background: #222427;
+    list-style: none;
+}
+#Fotos_productos ul a{
+    text-decoration: none;
+    color: white;
+}
+#Fotos_productos ul a h2{
+    border-top: 2px solid rgb(129, 129, 129);
+    text-align: center;
+}
+.container1 h1{
+    color:  rgb(220, 143, 0);
+    margin: 5px;
+    padding: 10px;
+}
+.card {
+    margin-bottom: 20px;
+    border: 1px solid rgb(220, 143, 0);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(220, 143, 0);
+}
+.product-image {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.product-description {
+    flex-grow: 1;
+}
+.product-buttons {
+    display: flex;
+    align-items: center;
+}
+.product-buttons button {
+    margin-right: 5px;
+}
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+.preciot{
+    margin-top: 30px;
+    display: flex;
+    border-top: 1px solid rgb(220, 143, 0);
+    color: rgb(220, 143, 0);
+    align-content: left;
+    align-items: left;
+}
+.contlk{
+    text-decoration: none;
+    color: white;
+}
+.cont{
+    margin-top: 15px;
+    color: rgb(220, 143, 0);
+    text-decoration: none;
+}
+
+.cont button{
+    font-size: 25px;
+    background-color: #222427;
+    border-radius: 2px solid rgb(220, 143, 0);
+    padding: 5px;
+}
+.btn-delete:hover {
+    background-color: #c82333;
+}
+.btn-buy {
+    background-color: #28a745;
+    color: white;
+}
+.btn-buy:hover {
+    background-color: #218838;
+}

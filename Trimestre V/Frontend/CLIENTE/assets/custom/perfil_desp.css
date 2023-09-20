@@ -1,0 +1,35 @@
+#Cabeceras{
+    background: #222427;
+    padding: 1%;
+
+}
+.Menu_cabecera{
+    width: center;
+}
+.Inicio_registro ul{
+    margin-left: 5%;
+    list-style: none;
+}
+.Inicio_registro ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+.minimenu{
+    text-align: left;
+    background: black;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5%;
+    width: 2%;
+}
+.minimenu li{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5%;
+}
+.nave li ul{
+    display: none;
+    min-width: 10%;
+}
+.nave li:hover > ul{
+    display: block;
+}

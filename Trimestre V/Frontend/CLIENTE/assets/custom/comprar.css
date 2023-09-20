@@ -1,0 +1,48 @@
+/*Contenedor principal*/
+.container{
+    align-items: center;
+    text-align: center;
+}
+.container h2{
+    color: white;
+    margin-top: 30px;
+    align-items: left;
+    text-align: left;
+}
+/*Primera columna*/
+.cuadrito{
+    width: 600px;
+    height: 100px;
+    margin: 20px;
+}
+.card img{
+    width: 55px;
+    height: 55px;
+    align-items: left;
+    text-align: left;
+}
+/*Segunda columna*/
+.card22{
+    margin-top: 85px;
+    height: 80%;
+    text-align: left;
+    padding: 15px;
+}
+.card22 h5{
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+.preciott{
+    border-top: 1px solid black;
+}
+.botoncom{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(220, 143, 0);
+    font-size: 20px;
+}
+.botoncom:hover{
+    background-color: rgb(136, 88, 0);
+}

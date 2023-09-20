@@ -1,0 +1,105 @@
+/*Estilos de las card*/
+.card{
+    border-radius: 3px solid orange;
+    margin: 20px;
+    padding: 10px;
+    width: 18rem;
+    background-size: 300px 300px;
+}
+/*Estilo para las imagenes en las card*/
+.card img{
+    text-align: center;
+    align-items: center;
+}
+/*Tamaño de el precio*/
+.card .precio{
+    font-size: 25px;
+    color: rgb(220, 143, 0);
+}
+/*Tamaño de la letra de descripción*/
+.card .desc{
+    font-size: 20px;
+}
+#Cabecera2{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 50% 50%;
+}
+.Menu2 ul{
+    list-style: none;
+    display: grid;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 15% 22% 20% auto;
+    padding: 2%;
+}
+.Menu2 ul a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.m1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    border-right: 2px solid #222427;
+    margin-top: 22%;
+    text-align: center;
+}
+.C1{
+    color: rgb(220, 143, 0);
+}
+.m2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    border-right: 2px solid #222427;
+    margin-top: 15%;
+    text-align: center;
+}
+.C2{
+    color: white;
+}
+.m3{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: 10%;
+    margin-top: 16%;
+    text-align: center;
+}
+.Barra_navegacion{
+    padding: 5%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 85% 15%;
+}
+.Barra_n{
+    height: 90%;
+    width: 60%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+.Boton_b{
+    height: 90%;
+    width: 80%;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 5px;
+}
+
+.Contenido_Titulo{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+}

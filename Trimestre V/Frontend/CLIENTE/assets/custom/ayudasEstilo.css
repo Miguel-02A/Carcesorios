@@ -1,0 +1,41 @@
+#Fotos_productos{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+#Fotos_productos h1{
+    display: grid;
+    grid-column: 1/5;
+    color:  rgb(220, 143, 0);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.contenedorll .lineap{
+    border-top: 1px solid rgb(220, 143, 0);
+}
+.contenedorll{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.contenedorll a{
+    text-decoration: none;
+    color: white;
+}
+.contenedorll .colm1{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 400px;
+    color: white;
+    border: 2px solid rgb(220, 143, 0);
+}
+.otro{
+    margin: 50px;
+}
+.contenedorll .colm2{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 400px;
+    color: white;
+    border: 2px solid rgb(220, 143, 0);
+}
