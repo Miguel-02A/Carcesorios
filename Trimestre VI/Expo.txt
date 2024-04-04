@@ -1,0 +1,109 @@
+https://uniandes-se4ma.gitlab.io/books/chapter1.html
+3 7 
+taller sopa de letra,crusigrama
+
+
+1.De acuerdo a la historia de los dispositivos móviles elaborar una línea de tiempo 
+2.Cuadro comparativo entre Android y iOS 
+3.Ventajas y desventajas de una aplicación nativa 
+4.Que es una aplicación nativa, hibrida y multiplataforma
+
+5. ¿Estás de acuerdo o no, en que el diseño debe estar presente en todo el ciclo de desarrollo de software? Justifica tu respuesta.
+6. Explica los 5 pasos del proceso del pensamiento de diseño. Luego aplícalo a un ejemplo.
+7. Que es Design Thinking?
+8.  Explica y aplica con un ejemplo las etapas del Design Thinking
+9. Que es ser diseñador inclusivo? ¿Por qué es importante? ¿Estás de acuerdo en que debemos ser diseñadores inclusivos? Justifica tu respuesta. 
+10 . De acuerdo a las herramientas que podemos utilizar para ser diseñadores inclusivos, Escoge 2 herramientas y realiza una investigación de como funciona y como se puede implementar en una aplicación web y una móvil.
+Isaura Maria Suarez Novoa9:12
+11. Explica la importancia de la empatía con el usuario en el desarrollo del software.
+12. Que es y como se implementa un mapa de empatía.
+13. Que es un diagrama de contexto? ¿Y que es el context canvas? 
+14. Elabora un cuadro comparativo entre el diagrama de contexto y el context canvas
+15.Elabora un ejemplo de diagrama de contexto y context canvas
+16. Con base a la explicación. Elabora un ejemplo de personas y usuario.
+
+Exposiciones 2:
+
+1.	¿Qué es la arquitectura de datos y en que radica su importancia?
+2.	Menciona y explica cada uno de los métodos y procesos propuestos para diseño de proyectos de análisis y ciencia de datos.
+3.	¿Que son los datos, información y conocimiento? Realiza un ejemplo
+4.	¿Como se debe construir un motor de análisis?
+5.	¿Qué es el mapa VD? Brinda un ejemplo y Explícalo.
+6.	¿Que son los escenarios funcionales y de calidad? Realiza un cuadro comparativo
+7.	Explica que es la GUI y el material design.
+8.	Explica que es el modelo UI y UX. Realiza un ejemplo
+9.	¿Por qué son importante los Bocetos manuales y los prototipos digitales? Justifica. 
+10.	Explica que es un sistema operativo a través de un mapa mental.
+11.	¿Qué es el kernel?
+12.	Explica cada una de las capas en que se compone el sistema operativo Android e IOS
+13.	Explique las dos principales arquitecturas de kernel.
+14.	¿Qué es un framework? ¿Cuál es la importancia de estos? Menciona las ventajas y desventajas.
+
+Exposiciones 3:
+
+1.	Explica, justificando tu respuesta, sobre la importancia de:
+a.	Arquitectura de software
+b.	Restricción de diseño
+c.	Atributos de calidad
+d.	Estilos y patrones arquitectónicos
+e.	Patrón de diseño
+f.	Tácticas arquitectónicas
+
+2.	Realiza un cuadro comparativo entre patrón de arquitectura y estilo arquitectónico
+3.	Elabora un mapa mental sobre las 4 categorías de alto nivel de estilos arquitectónicos mencionados en el capítulo.
+4.	Investiga sobre MVC, MVP, MVW y elabora un cuadro comparativo.
+5.	Da ejemplos reales diferentes a los del libro sobre los estilos arquitectónicos y explícalos.
+6.	Explica con un ejemplo que es MVVM
+7.	Que es Android Jetpack
+8.	Menciona y explica cada uno de los componentes que constituyen Android Jetpack
+9.	Explica de forma creativa la programación del lado de IOS
+10.	Elabora un mapa mental de Flutter
+11.	¿Qué es Microoptimizar? Explica
+12.	Explica cada una de las capas de canalización de datos
+13.	Realiza un cuadro comparativo entre base de datos relacional y no relacionales
+14.	Investiga sobre los tipos de canales de datos y elabora un cuadro comparativo entre ellos.
+
+
+Exposiciones 4:
+
+
+1.	A través de un mapa mental, explica la estrategia de manejo de datos
+2.	Escoge una aplicación y explica cada una de las estrategias de obtención de datos. 
+3.	Que son los antipatrones de conectividad. Define y realiza un cuadro con las características mas importantes de cada antipatrón.
+4.	Define:
+•	Manejo de datos
+•	Datos instalados
+•	Caché permanente
+•	Caché temporal
+•	Sin caché
+5.	Realiza una infografía del ítem 10.2 del libro en estudio.
+6.	¿Explica porque es tan importante el rendimiento en las aplicaciones móviles? Justifica con bases tu respuesta.
+7.	Define:
+•	Performance
+•	Memory bloat
+•	Error de no dormir
+•	Error de inmortalidad
+•	Error de bucle/del circuito de energía
+•	Usos de API codiciosos de energía
+•	ANR
+•	Retrasos en la GUI
+•	Renderizado lento
+8.	Realiza un cuadro comparativo entre GC (Recolector de basura) y ARC (Conteo Automático de Referencias).
+9.	¿Qué es una referencia fuerte y débil? ¿En qué radica su importancia?
+10.	Realiza un mapa mental del capítulo 12 del libro en estudio.
+11.	Elabora y/o diseña un blog informativo, o un periódico de tecnología sobre los temas más importantes del libro en estudio (no vas a transcribir el libro en estudio, recuerda tu eres el periodista). Al final realiza tu propia conclusión del conocimiento adquirido y dando tu opinión sobre que te pareció el libro en estudio.
+
+
+
+
+REACT:
+https://snack.expo.dev/?platform=android
+
+
+
+
+
+
+
+
+
